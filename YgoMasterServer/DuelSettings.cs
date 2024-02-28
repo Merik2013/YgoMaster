@@ -75,6 +75,8 @@ namespace YgoMaster
         public bool is_pvp;
         public int chapter;
         public string replaym;
+        public bool SingleBgm;
+        public bool DoubleBgm;
         public List<string> bgms { get; private set; }
         public DeckInfo[] Deck { get; private set; }
         public int[] life { get; private set; }
